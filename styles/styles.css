@@ -1,0 +1,151 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+
+body {
+    background: #67B26F; 
+    background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  
+    background: linear-gradient(to right, #4ca2cd, #67B26F); 
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 16px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
+}
+
+.header h1 {
+    font-weight: 700;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+/* Main Part */
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1320px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 20px; */
+}
+
+/* Score */
+.score {
+    display: flex;
+    gap: 100px;
+    text-align: center;
+    margin-bottom: 30px;
+    border: 3px solid #fff;
+    padding: 50px 70px;
+    border-radius: 15px;
+}
+
+.score_header {
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.points {
+    font-size: 1.3rem;
+}
+
+/* Choice buttons */
+.buttons {
+    display: flex;
+    gap: 80px;
+}
+
+.btn {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    color: #67B26F;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+/* .btn:hover {
+    border: 2px solid #fff;
+    color: #fff;
+    background: none;
+    transition: 0.5s ease-in;
+} */
+
+/* Results */
+.result {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.result p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
+/*Restart button*/
+
+#restart {
+    display: none;
+    background: #fff;
+    padding: 18px 26px;
+    color: #67B26F;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.active {
+    display: flex;
+}
+
+#restart:hover {
+    background: none;
+    color: #fff;
+    border: 2px solid #fff;
+    transition: 0.6s ease-out;
+}
+
+
+/* Shadows */
+
+.green_shadow {
+    border: 3px solid #67B26F;
+    box-shadow: 0 0 10px #499d51;
+    position: relative;
+    top: 1px;
+   
+}
+
+.red_shadow {
+    border: 3px solid #ed4776;
+    box-shadow: 0 0 10px #ed4776;
+    position: relative;
+    top: 1px;
+}
+
+.shadow {
+    border: 3px solid #c9c7c7;
+    box-shadow: 0 0 12px #929292; 
+    position: relative;
+    top: 1px;
+}
+
+
